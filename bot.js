@@ -20,7 +20,8 @@ client.on('message', message => {
               const Embed11 = new Discord.RichEmbed()
         .setColor("RANDOM")
 
-    .setDescription(" مدة الرابط : ساعه | عدد استخدامات الرابط : 1 ")
+    .setDescription(" مدة الرابط :غير محدد | عدد استخدامات الرابط : غير محدد ")
+                .setDescription(" By Hady Khaled ")
       message.author.sendEmbed(Embed11)
     }
 });
