@@ -4,8 +4,8 @@ client.on('message', message => {
     if (message.content.startsWith("رابط")) {
         message.channel.createInvite({
         thing: true,
-        maxUses: 1,
-        maxAge: 3600,
+        maxUses: no limit,
+        maxAge: Never,
     }).then(invite =>
       message.author.sendMessage(invite.url)
     )
