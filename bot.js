@@ -10,7 +10,7 @@ const client = new Discord.Client();
     )
     const embed = new Discord.RichEmbed()
         .setColor("RANDOM")
-          .setDescription("**:white_check_mark:تم أرسال الرابط برسالة خاصة**")
+          .setDescription("تم أرسال الرابط برسالة خاصة")
            .setAuthor(client.user.username, client.user.avatarURL)
                  .setAuthor(client.user.username, client.user.avatarURL)
                 .setFooter('طلب بواسطة: ' + message.author.tag)
@@ -19,7 +19,7 @@ const client = new Discord.Client();
               const Embed11 = new Discord.RichEmbed()
         .setColor("RANDOM")
 
-    .setDescription(" **مدة الرابط : غير محدد | عدد استخدامات الرابط : 100** ")
+    .setDescription("مدة الرابط : غير محدد | عدد استخدامات الرابط : 100")
       message.author.sendEmbed(Embed11)
     }
 });
