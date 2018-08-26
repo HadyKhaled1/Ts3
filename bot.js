@@ -20,7 +20,8 @@ client.on('message', message => {
               const Embed11 = new Discord.RichEmbed()
         .setColor("RANDOM")
 
-    .setDescription(" مدة الرابط :غير محدد | عدد استخدامات الرابط : غير محدد ")
+    .setDescription("BoT By Hady Khaled
+                    مدة الرابط :غير محدد | عدد استخدامات الرابط : غير محدد ")
                 
       message.author.sendEmbed(Embed11)
     }
