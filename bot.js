@@ -21,7 +21,7 @@ client.on('message', message => {
         .setColor("RANDOM")
 
     .setDescription(" مدة الرابط :غير محدد | عدد استخدامات الرابط : غير محدد ")
-                .setDescription(" By Hady Khaled ")
+                
       message.author.sendEmbed(Embed11)
     }
 });
