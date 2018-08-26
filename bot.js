@@ -1,11 +1,10 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.on('message', message => {
     if (message.content.startsWith("رابط")) {
         message.channel.createInvite({
         thing: true,
-        maxUses: no limit,
-        maxAge: Never,
+        maxUses: 100,
+        maxAge: Nerver,
     }).then(invite =>
       message.author.sendMessage(invite.url)
     )
@@ -20,8 +19,7 @@ client.on('message', message => {
               const Embed11 = new Discord.RichEmbed()
         .setColor("RANDOM")
 
-    .setDescription("** مدة الرابط : غير محدد | عدد استخدامات الرابط :غير محدد **")
-                
+    .setDescription(" **مدة الرابط : غير محدد | عدد استخدامات الرابط : 100** ")
       message.author.sendEmbed(Embed11)
     }
 });
