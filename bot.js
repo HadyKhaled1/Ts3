@@ -11,7 +11,7 @@ client.on('message', message => {
     )
     const embed = new Discord.RichEmbed()
         .setColor("RANDOM")
-          .setDescription("تم أرسال الرابط برسالة خاصة")
+          .setDescription("**:white_check_mark:تم أرسال الرابط برسالة خاصة**")
            .setAuthor(client.user.username, client.user.avatarURL)
                  .setAuthor(client.user.username, client.user.avatarURL)
                 .setFooter('طلب بواسطة: ' + message.author.tag)
@@ -20,8 +20,7 @@ client.on('message', message => {
               const Embed11 = new Discord.RichEmbed()
         .setColor("RANDOM")
 
-    .setDescription("BoT By Hady Khaled
-                    مدة الرابط :غير محدد | عدد استخدامات الرابط : غير محدد ")
+    .setDescription("** مدة الرابط : غير محدد | عدد استخدامات الرابط :غير محدد **")
                 
       message.author.sendEmbed(Embed11)
     }
